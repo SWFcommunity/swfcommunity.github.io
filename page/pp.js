@@ -25,7 +25,7 @@ var auth_country="US";
 var auth_fail_url="https://swfg.w3spaces.com/not-allowed.html";
 var auth_ajax=true;
 
-var adcode="<p style='text-align:center'><table width='100%'><tr><td style='background:#000080; text-align:center; font-family:arial; color:#FFFFFF'>Protected by <a href='http://www.authpro.com' target='_blank' style='color:#FFFFFF'>AuthPro</a></td></tr></table></center></p>";
+var adcode="";
 
 var pp_popup=false;
 
@@ -47,7 +47,6 @@ if (auth_fail_url=='return') {
 verify_login();
 
 if (adcode != '') { 
-  document.write(adcode); 
   //document.onload = print_authpro();
   //ap_div.innerHTML=adcode;
   //document.body[0].innerHTML+=adcode;
