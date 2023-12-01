@@ -25,7 +25,7 @@ var auth_country="US";
 var auth_fail_url="https://swfg.w3spaces.com/not-allowed.html";
 var auth_ajax=true;
 
-var adcode="";
+var adcode="<div></div>";
 
 var pp_popup=false;
 
